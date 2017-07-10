@@ -148,6 +148,23 @@ extern CGFloat const kBIPActionSheetRowHeight;
 
 For more information please check the Demo App.
 
+## Installation
+
+There are three ways to use BIPActionSheet in your project:
+- using CocoaPods
+- by cloning the project into your repository
+
+### Installation with CocoaPods
+
+[CocoaPods](http://cocoapods.org/) is a dependency manager for Swift and Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. See the [Get Started](http://cocoapods.org/#get_started) section for more details.
+
+#### Podfile
+```ruby
+platform :ios, '8.0'
+use_frameworks!
+pod 'BIPActionSheet', '~> 1.0.0'
+```
+
 ## Requirements
 
 This library requires a deployment target of iOS 7.0 or greater.
