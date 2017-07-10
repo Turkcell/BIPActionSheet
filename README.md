@@ -150,7 +150,7 @@ For more information please check the Demo App.
 
 ## Installation
 
-There are three ways to use BIPActionSheet in your project:
+There are two ways to use BIPActionSheet in your project:
 - using CocoaPods
 - by cloning the project into your repository
 
