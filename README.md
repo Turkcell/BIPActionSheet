@@ -76,6 +76,42 @@ For example if you want to show actionsheet when button tapped:
 + (void)dismissAllActionsheets;
 ```
 
+#### Appearence Support 
+
+Application-wide appearence of Actionsheet can be set.
+
+NOTE: If you initialize BIPActionSheetItem with spesific text color, so this library firsly listens how you initialize the item to show up about appearence.
+
+For Example: You are initializing actionSheetItem with blueColor as shown below, Then this library firstly choose this item textColor as Blue regardless you initialized appearence with black color for spesific item.
+
+```objective-c
+BIPActionSheetItem *item2 = [BIPActionSheetItem itemWithTitle:@"Item2" image:[UIImage imageNamed:@"asCallIcon"] textColor:[UIColor blueColor] actionHandler:^(BIPActionSheet *actionSheet) {
+
+    NSLog(@"Item2 Tapped");
+}];
+```
+
+```objective-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+// Override point for customization after application launch.
+
+    [[BIPActionSheetItemView appearance] setCancelButtonColor:[UIColor blueColor]];
+    [[BIPActionSheetItemView appearance] setCancelButtonFont:[UIFont fontWithName:@"Helvetica-Bold" size:17]];
+
+    [[BIPActionSheetItemView appearance] setItemFont:[UIFont fontWithName:@"Helvetica" size:17]];
+    [[BIPActionSheetItemView appearance] setItemTextColor:[UIColor darkGrayColor]];
+
+    [[BIPActionSheetItemView appearance] setTitleFont:[UIFont fontWithName:@"Helvetica" size:14]];
+    [[BIPActionSheetItemView appearance] setTitleTextColor:[UIColor redColor]];
+
+    [[BIPActionSheetItemView appearance] setImageAlignment:Left];
+    [[BIPActionSheetItemView appearance] setImageHeight:30.f];
+    [[BIPActionSheetItemView appearance] setImageWidth:30.f];
+
+return YES;
+}
+```
+
 #### Stack Design 
 
 You can easily manage your app-wide actionsheets with stack design.
