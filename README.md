@@ -9,7 +9,7 @@ Custom ActionSheet with image and text support, which is easy to use and modify.
 ![Anim](https://github.com/Turkcell/BIPActionSheet/blob/master/Gifs/ipad.gif)
 
 
-## Usage
+### Usage
 
 Usage is simple, just import "BIPActionSheetKit.h" to your class where you want to use this library.
 
@@ -76,7 +76,7 @@ For example if you want to show actionsheet when button tapped:
 + (void)dismissAllActionsheets;
 ```
 
-#### Appearence Support 
+### Appearence Support 
 
 Application-wide appearence of Actionsheet can be set.
 
@@ -108,11 +108,11 @@ BIPActionSheetItem *item2 = [BIPActionSheetItem itemWithTitle:@"Item2" image:[UI
     [[BIPActionSheetItemView appearance] setImageHeight:30.f];
     [[BIPActionSheetItemView appearance] setImageWidth:30.f];
 
-return YES;
+    return YES;
 }
 ```
 
-#### Stack Design 
+### Stack Design 
 
 You can easily manage your app-wide actionsheets with stack design.
 
@@ -128,6 +128,23 @@ Anytime easy to access all actionsheets on stack with below property of BIPActio
 @property (nonatomic, strong) NSMutableArray <BIPActionSheet *> *actionSheets;
 ```
 
+### Customize With Constants
+
+These constants are for UI Customization of BIPActionSheet Library as shown below:
+You can change them with needs of your project.
+
+```objective-c
+@interface BIPActionSheetConstants : NSObject
+
+extern CGFloat const kBIPActionSheetPaddingOffset;
+extern CGFloat const kBIPActionSheetPaddingOffsetiPAD;
+extern CGFloat const kBIPActionSheetBackgroundAlpha;
+extern CGFloat const kBIPActionSheetShowAnimationDuration;
+extern CGFloat const kBIPActionSheetHideAnimationDuration;
+extern CGFloat const kBIPActionSheetRowHeight;
+
+@end
+```
 
 For more information please check the Demo App.
 
