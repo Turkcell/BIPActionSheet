@@ -23,40 +23,40 @@ For example if you want to show actionsheet when button tapped:
 
 - (IBAction)btnTapped:(id)sender {
 
-BIPActionSheetItem *item = [BIPActionSheetItem itemWithTitle:@"Item1" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
+    BIPActionSheetItem *item = [BIPActionSheetItem itemWithTitle:@"Item1" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
 
-NSLog(@"Item1 Tapped");
-}];
+        NSLog(@"Item1 Tapped");
+    }];
 
-BIPActionSheetItem *item2 = [BIPActionSheetItem itemWithTitle:@"Item2" image:[UIImage imageNamed:@"asCallIcon"] textColor:[UIColor blackColor] actionHandler:^(BIPActionSheet *actionSheet) {
+    BIPActionSheetItem *item2 = [BIPActionSheetItem itemWithTitle:@"Item2" image:[UIImage imageNamed:@"asCallIcon"] textColor:[UIColor blackColor] actionHandler:^(BIPActionSheet *actionSheet) {
 
-NSLog(@"Item2 Tapped");
-}];
+        NSLog(@"Item2 Tapped");
+    }];
 
-BIPActionSheetItem *item3 = [BIPActionSheetItem itemWithTitle:@"Item3" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
+    BIPActionSheetItem *item3 = [BIPActionSheetItem itemWithTitle:@"Item3" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
 
-NSLog(@"Item3 Tapped");
-}];
+        NSLog(@"Item3 Tapped");
+    }];
 
-BIPActionSheetItem *item4 = [BIPActionSheetItem itemWithTitle:@"Item4" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
+    BIPActionSheetItem *item4 = [BIPActionSheetItem itemWithTitle:@"Item4" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
 
-NSLog(@"Item4 Tapped");
-}];
+        NSLog(@"Item4 Tapped");
+    }];
 
-BIPActionSheetItem *item5 = [BIPActionSheetItem itemWithTitle:@"Item5" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
+    BIPActionSheetItem *item5 = [BIPActionSheetItem itemWithTitle:@"Item5" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
 
-NSLog(@"Item5 Tapped");
-}];
+        NSLog(@"Item5 Tapped");
+    }];
 
-BIPActionSheetItem *item6 = [BIPActionSheetItem itemWithTitle:@"Item6" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
+    BIPActionSheetItem *item6 = [BIPActionSheetItem itemWithTitle:@"Item6" image:[UIImage imageNamed:@"asCallIcon"] actionHandler:^(BIPActionSheet *actionSheet) {
 
-NSLog(@"Item6 Tapped");
-}];
+        NSLog(@"Item6 Tapped");
+    }];
 
-[BIPActionSheet showActionSheetWithTitle:@"This is title" items:@[item, item2, item3, item4, item5, item6] cancelButtonTitle:@"Cancel" cancelHandler:^{
+    [BIPActionSheet showActionSheetWithTitle:@"This is title" items:@[item, item2, item3, item4, item5, item6] cancelButtonTitle:@"Cancel" cancelHandler:^{
 
-NSLog(@"Cancel Tapped");
-}];
+        NSLog(@"Cancel Tapped");
+    }];
 }
 
 @end
@@ -68,7 +68,7 @@ NSLog(@"Cancel Tapped");
 ```
 
 
-- You can easily control application-wide actionsheet controls with instance methods of BIPActionSheet class
+- You can easily control application-wide actionsheet controls with class methods of BIPActionSheet class
 
 ```objective-c
 + (BOOL)isAnyActionsheetVisible;
@@ -76,7 +76,7 @@ NSLog(@"Cancel Tapped");
 + (void)dismissAllActionsheets;
 ```
 
-#### Stack Design
+#### Stack Design 
 
 You can easily manage your app-wide actionsheets with stack design.
 
