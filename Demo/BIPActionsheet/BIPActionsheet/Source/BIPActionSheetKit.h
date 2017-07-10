@@ -12,5 +12,6 @@
 #import "BIPActionSheet.h"
 #import "BIPActionSheetItem.h"
 #import "BIPActionSheetItemView.h"
+#import "BIPActionSheetStack.h"
 
 #endif
