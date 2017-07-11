@@ -127,6 +127,8 @@
     if (!_imageView)
     {
         _imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
+        _imageView.contentMode = UIViewContentModeScaleAspectFit;
+        _imageView.clipsToBounds = YES;
     }
     
     return _imageView;
