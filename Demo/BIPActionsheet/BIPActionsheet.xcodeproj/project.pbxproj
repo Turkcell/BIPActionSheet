@@ -13,15 +13,15 @@
 		C31A92FA1F111DB5000CF4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31A92F81F111DB5000CF4ED /* Main.storyboard */; };
 		C31A92FC1F111DB5000CF4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31A92FB1F111DB5000CF4ED /* Assets.xcassets */; };
 		C31A92FF1F111DB5000CF4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31A92FD1F111DB5000CF4ED /* LaunchScreen.storyboard */; };
-		C31A93121F111E08000CF4ED /* BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A93081F111E08000CF4ED /* BIPActionSheet.m */; };
-		C31A93131F111E08000CF4ED /* BIPActionSheetConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A930A1F111E08000CF4ED /* BIPActionSheetConstants.m */; };
-		C31A93141F111E08000CF4ED /* BIPActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A930C1F111E08000CF4ED /* BIPActionSheetItem.m */; };
-		C31A93151F111E08000CF4ED /* BIPActionSheetItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A930E1F111E08000CF4ED /* BIPActionSheetItemView.m */; };
-		C31A93161F111E08000CF4ED /* BIPActionSheetStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A93111F111E08000CF4ED /* BIPActionSheetStack.m */; };
-		C31A93251F11388C000CF4ED /* UIImage+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A93241F11388C000CF4ED /* UIImage+BIPActionSheet.m */; };
-		C31A93281F1138DE000CF4ED /* UIView+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A93271F1138DE000CF4ED /* UIView+BIPActionSheet.m */; };
-		C31A932B1F113900000CF4ED /* UIWindow+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A932A1F113900000CF4ED /* UIWindow+BIPActionSheet.m */; };
-		C31A93321F114D26000CF4ED /* UIApplication+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C31A93311F114D26000CF4ED /* UIApplication+BIPActionSheet.m */; };
+		FF30832F1F14FB6B003FF7F2 /* BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30831D1F14FB6B003FF7F2 /* BIPActionSheet.m */; };
+		FF3083301F14FB6B003FF7F2 /* BIPActionSheetConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30831F1F14FB6B003FF7F2 /* BIPActionSheetConstants.m */; };
+		FF3083311F14FB6B003FF7F2 /* BIPActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3083211F14FB6B003FF7F2 /* BIPActionSheetItem.m */; };
+		FF3083321F14FB6B003FF7F2 /* BIPActionSheetItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3083231F14FB6B003FF7F2 /* BIPActionSheetItemView.m */; };
+		FF3083331F14FB6B003FF7F2 /* BIPActionSheetStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3083261F14FB6B003FF7F2 /* BIPActionSheetStack.m */; };
+		FF3083341F14FB6B003FF7F2 /* UIApplication+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3083281F14FB6B003FF7F2 /* UIApplication+BIPActionSheet.m */; };
+		FF3083351F14FB6B003FF7F2 /* UIImage+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30832A1F14FB6B003FF7F2 /* UIImage+BIPActionSheet.m */; };
+		FF3083361F14FB6B003FF7F2 /* UIView+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30832C1F14FB6B003FF7F2 /* UIView+BIPActionSheet.m */; };
+		FF3083371F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30832E1F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,25 +35,25 @@
 		C31A92FB1F111DB5000CF4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31A92FE1F111DB5000CF4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C31A93001F111DB5000CF4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C31A93071F111E08000CF4ED /* BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheet.h; sourceTree = "<group>"; };
-		C31A93081F111E08000CF4ED /* BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheet.m; sourceTree = "<group>"; };
-		C31A93091F111E08000CF4ED /* BIPActionSheetConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetConstants.h; sourceTree = "<group>"; };
-		C31A930A1F111E08000CF4ED /* BIPActionSheetConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetConstants.m; sourceTree = "<group>"; };
-		C31A930B1F111E08000CF4ED /* BIPActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetItem.h; sourceTree = "<group>"; };
-		C31A930C1F111E08000CF4ED /* BIPActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetItem.m; sourceTree = "<group>"; };
-		C31A930D1F111E08000CF4ED /* BIPActionSheetItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetItemView.h; sourceTree = "<group>"; };
-		C31A930E1F111E08000CF4ED /* BIPActionSheetItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetItemView.m; sourceTree = "<group>"; };
-		C31A930F1F111E08000CF4ED /* BIPActionSheetKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetKit.h; sourceTree = "<group>"; };
-		C31A93101F111E08000CF4ED /* BIPActionSheetStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetStack.h; sourceTree = "<group>"; };
-		C31A93111F111E08000CF4ED /* BIPActionSheetStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetStack.m; sourceTree = "<group>"; };
-		C31A93231F11388C000CF4ED /* UIImage+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BIPActionSheet.h"; sourceTree = "<group>"; };
-		C31A93241F11388C000CF4ED /* UIImage+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BIPActionSheet.m"; sourceTree = "<group>"; };
-		C31A93261F1138DE000CF4ED /* UIView+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BIPActionSheet.h"; sourceTree = "<group>"; };
-		C31A93271F1138DE000CF4ED /* UIView+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BIPActionSheet.m"; sourceTree = "<group>"; };
-		C31A93291F113900000CF4ED /* UIWindow+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+BIPActionSheet.h"; sourceTree = "<group>"; };
-		C31A932A1F113900000CF4ED /* UIWindow+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+BIPActionSheet.m"; sourceTree = "<group>"; };
-		C31A93301F114D26000CF4ED /* UIApplication+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BIPActionSheet.h"; sourceTree = "<group>"; };
-		C31A93311F114D26000CF4ED /* UIApplication+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BIPActionSheet.m"; sourceTree = "<group>"; };
+		FF30831C1F14FB6B003FF7F2 /* BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheet.h; sourceTree = "<group>"; };
+		FF30831D1F14FB6B003FF7F2 /* BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheet.m; sourceTree = "<group>"; };
+		FF30831E1F14FB6B003FF7F2 /* BIPActionSheetConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetConstants.h; sourceTree = "<group>"; };
+		FF30831F1F14FB6B003FF7F2 /* BIPActionSheetConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetConstants.m; sourceTree = "<group>"; };
+		FF3083201F14FB6B003FF7F2 /* BIPActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetItem.h; sourceTree = "<group>"; };
+		FF3083211F14FB6B003FF7F2 /* BIPActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetItem.m; sourceTree = "<group>"; };
+		FF3083221F14FB6B003FF7F2 /* BIPActionSheetItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetItemView.h; sourceTree = "<group>"; };
+		FF3083231F14FB6B003FF7F2 /* BIPActionSheetItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetItemView.m; sourceTree = "<group>"; };
+		FF3083241F14FB6B003FF7F2 /* BIPActionSheetKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetKit.h; sourceTree = "<group>"; };
+		FF3083251F14FB6B003FF7F2 /* BIPActionSheetStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetStack.h; sourceTree = "<group>"; };
+		FF3083261F14FB6B003FF7F2 /* BIPActionSheetStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetStack.m; sourceTree = "<group>"; };
+		FF3083271F14FB6B003FF7F2 /* UIApplication+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BIPActionSheet.h"; sourceTree = "<group>"; };
+		FF3083281F14FB6B003FF7F2 /* UIApplication+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BIPActionSheet.m"; sourceTree = "<group>"; };
+		FF3083291F14FB6B003FF7F2 /* UIImage+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BIPActionSheet.h"; sourceTree = "<group>"; };
+		FF30832A1F14FB6B003FF7F2 /* UIImage+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BIPActionSheet.m"; sourceTree = "<group>"; };
+		FF30832B1F14FB6B003FF7F2 /* UIView+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BIPActionSheet.h"; sourceTree = "<group>"; };
+		FF30832C1F14FB6B003FF7F2 /* UIView+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BIPActionSheet.m"; sourceTree = "<group>"; };
+		FF30832D1F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+BIPActionSheet.h"; sourceTree = "<group>"; };
+		FF30832E1F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+BIPActionSheet.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +70,7 @@
 		C31A92E31F111DB5000CF4ED = {
 			isa = PBXGroup;
 			children = (
+				FF30831B1F14FB6B003FF7F2 /* Source */,
 				C31A92EE1F111DB5000CF4ED /* BIPActionsheet */,
 				C31A92ED1F111DB5000CF4ED /* Products */,
 			);
@@ -86,7 +87,6 @@
 		C31A92EE1F111DB5000CF4ED /* BIPActionsheet */ = {
 			isa = PBXGroup;
 			children = (
-				C31A93061F111DFC000CF4ED /* Source */,
 				C31A92F21F111DB5000CF4ED /* AppDelegate.h */,
 				C31A92F31F111DB5000CF4ED /* AppDelegate.m */,
 				C31A92F51F111DB5000CF4ED /* ViewController.h */,
@@ -108,30 +108,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C31A93061F111DFC000CF4ED /* Source */ = {
+		FF30831B1F14FB6B003FF7F2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C31A930F1F111E08000CF4ED /* BIPActionSheetKit.h */,
-				C31A93071F111E08000CF4ED /* BIPActionSheet.h */,
-				C31A93081F111E08000CF4ED /* BIPActionSheet.m */,
-				C31A93091F111E08000CF4ED /* BIPActionSheetConstants.h */,
-				C31A930A1F111E08000CF4ED /* BIPActionSheetConstants.m */,
-				C31A930B1F111E08000CF4ED /* BIPActionSheetItem.h */,
-				C31A930C1F111E08000CF4ED /* BIPActionSheetItem.m */,
-				C31A930D1F111E08000CF4ED /* BIPActionSheetItemView.h */,
-				C31A930E1F111E08000CF4ED /* BIPActionSheetItemView.m */,
-				C31A93101F111E08000CF4ED /* BIPActionSheetStack.h */,
-				C31A93111F111E08000CF4ED /* BIPActionSheetStack.m */,
-				C31A93231F11388C000CF4ED /* UIImage+BIPActionSheet.h */,
-				C31A93241F11388C000CF4ED /* UIImage+BIPActionSheet.m */,
-				C31A93261F1138DE000CF4ED /* UIView+BIPActionSheet.h */,
-				C31A93271F1138DE000CF4ED /* UIView+BIPActionSheet.m */,
-				C31A93291F113900000CF4ED /* UIWindow+BIPActionSheet.h */,
-				C31A932A1F113900000CF4ED /* UIWindow+BIPActionSheet.m */,
-				C31A93301F114D26000CF4ED /* UIApplication+BIPActionSheet.h */,
-				C31A93311F114D26000CF4ED /* UIApplication+BIPActionSheet.m */,
+				FF30831C1F14FB6B003FF7F2 /* BIPActionSheet.h */,
+				FF30831D1F14FB6B003FF7F2 /* BIPActionSheet.m */,
+				FF30831E1F14FB6B003FF7F2 /* BIPActionSheetConstants.h */,
+				FF30831F1F14FB6B003FF7F2 /* BIPActionSheetConstants.m */,
+				FF3083201F14FB6B003FF7F2 /* BIPActionSheetItem.h */,
+				FF3083211F14FB6B003FF7F2 /* BIPActionSheetItem.m */,
+				FF3083221F14FB6B003FF7F2 /* BIPActionSheetItemView.h */,
+				FF3083231F14FB6B003FF7F2 /* BIPActionSheetItemView.m */,
+				FF3083241F14FB6B003FF7F2 /* BIPActionSheetKit.h */,
+				FF3083251F14FB6B003FF7F2 /* BIPActionSheetStack.h */,
+				FF3083261F14FB6B003FF7F2 /* BIPActionSheetStack.m */,
+				FF3083271F14FB6B003FF7F2 /* UIApplication+BIPActionSheet.h */,
+				FF3083281F14FB6B003FF7F2 /* UIApplication+BIPActionSheet.m */,
+				FF3083291F14FB6B003FF7F2 /* UIImage+BIPActionSheet.h */,
+				FF30832A1F14FB6B003FF7F2 /* UIImage+BIPActionSheet.m */,
+				FF30832B1F14FB6B003FF7F2 /* UIView+BIPActionSheet.h */,
+				FF30832C1F14FB6B003FF7F2 /* UIView+BIPActionSheet.m */,
+				FF30832D1F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.h */,
+				FF30832E1F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.m */,
 			);
-			path = Source;
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,17 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31A93321F114D26000CF4ED /* UIApplication+BIPActionSheet.m in Sources */,
-				C31A93161F111E08000CF4ED /* BIPActionSheetStack.m in Sources */,
-				C31A93251F11388C000CF4ED /* UIImage+BIPActionSheet.m in Sources */,
+				FF3083331F14FB6B003FF7F2 /* BIPActionSheetStack.m in Sources */,
 				C31A92F71F111DB5000CF4ED /* ViewController.m in Sources */,
-				C31A93121F111E08000CF4ED /* BIPActionSheet.m in Sources */,
-				C31A93281F1138DE000CF4ED /* UIView+BIPActionSheet.m in Sources */,
-				C31A93141F111E08000CF4ED /* BIPActionSheetItem.m in Sources */,
-				C31A932B1F113900000CF4ED /* UIWindow+BIPActionSheet.m in Sources */,
-				C31A93151F111E08000CF4ED /* BIPActionSheetItemView.m in Sources */,
+				FF30832F1F14FB6B003FF7F2 /* BIPActionSheet.m in Sources */,
+				FF3083311F14FB6B003FF7F2 /* BIPActionSheetItem.m in Sources */,
+				FF3083361F14FB6B003FF7F2 /* UIView+BIPActionSheet.m in Sources */,
+				FF3083321F14FB6B003FF7F2 /* BIPActionSheetItemView.m in Sources */,
 				C31A92F41F111DB5000CF4ED /* AppDelegate.m in Sources */,
-				C31A93131F111E08000CF4ED /* BIPActionSheetConstants.m in Sources */,
+				FF3083371F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.m in Sources */,
+				FF3083341F14FB6B003FF7F2 /* UIApplication+BIPActionSheet.m in Sources */,
+				FF3083351F14FB6B003FF7F2 /* UIImage+BIPActionSheet.m in Sources */,
+				FF3083301F14FB6B003FF7F2 /* BIPActionSheetConstants.m in Sources */,
 				C31A92F11F111DB5000CF4ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
