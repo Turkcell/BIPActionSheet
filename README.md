@@ -162,7 +162,7 @@ There are two ways to use BIPActionSheet in your project:
 ```ruby
 platform :ios, '8.0'
 use_frameworks!
-pod 'BIPActionSheet', '~> 1.0.0'
+pod 'BIPActionSheet', '~> 1.0.1'
 ```
 
 ## Requirements

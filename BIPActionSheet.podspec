@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BIPActionSheet"
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = "Custom ActionSheet replacement with image support"
   s.description      = <<-DESC
   Custom ActionSheet with image and text support, which is easy to use and modify. We developed to use in our BIP Messenger Application
