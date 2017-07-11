@@ -40,7 +40,7 @@
 @property (nonatomic, strong) UIButton *cancelButton;
 
 + (BOOL)isAnyActionsheetVisible;
-+ (void)dismissLastActiveActionsheet;
++ (void)dismissVisibleActionsheet;
 + (void)dismissAllActionsheets;
 
 @end

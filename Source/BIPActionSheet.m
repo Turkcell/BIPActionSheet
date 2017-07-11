@@ -204,7 +204,7 @@ static inline bool bip_isPad() {
     return [BIPActionSheetStack sharedInstance].actionSheets.count > 0;
 }
 
-+ (void)dismissLastActiveActionsheet
++ (void)dismissVisibleActionsheet
 {
     if ([self isAnyActionsheetVisible])
     {
