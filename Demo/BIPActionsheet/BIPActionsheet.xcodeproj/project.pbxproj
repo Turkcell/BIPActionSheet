@@ -13,6 +13,10 @@
 		C31A92FA1F111DB5000CF4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31A92F81F111DB5000CF4ED /* Main.storyboard */; };
 		C31A92FC1F111DB5000CF4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31A92FB1F111DB5000CF4ED /* Assets.xcassets */; };
 		C31A92FF1F111DB5000CF4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31A92FD1F111DB5000CF4ED /* LaunchScreen.storyboard */; };
+		C345B7E51F16020A00C69616 /* BIPActionsheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C345B7E41F16020A00C69616 /* BIPActionsheetTests.m */; };
+		C345B7ED1F16037B00C69616 /* BIPActionSheetItemViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C345B7EC1F16037B00C69616 /* BIPActionSheetItemViewTests.m */; };
+		C345B7EF1F16038D00C69616 /* BIPActionSheetItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C345B7EE1F16038D00C69616 /* BIPActionSheetItemTests.m */; };
+		C345B7F11F16039F00C69616 /* BIPActionSheetStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C345B7F01F16039F00C69616 /* BIPActionSheetStackTests.m */; };
 		FF30832F1F14FB6B003FF7F2 /* BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30831D1F14FB6B003FF7F2 /* BIPActionSheet.m */; };
 		FF3083301F14FB6B003FF7F2 /* BIPActionSheetConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30831F1F14FB6B003FF7F2 /* BIPActionSheetConstants.m */; };
 		FF3083311F14FB6B003FF7F2 /* BIPActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3083211F14FB6B003FF7F2 /* BIPActionSheetItem.m */; };
@@ -23,6 +27,16 @@
 		FF3083361F14FB6B003FF7F2 /* UIView+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30832C1F14FB6B003FF7F2 /* UIView+BIPActionSheet.m */; };
 		FF3083371F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30832E1F14FB6B003FF7F2 /* UIWindow+BIPActionSheet.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C345B7E71F16020A00C69616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31A92E41F111DB5000CF4ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31A92EB1F111DB5000CF4ED;
+			remoteInfo = BIPActionsheet;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C31A92EC1F111DB5000CF4ED /* BIPActionsheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIPActionsheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +49,12 @@
 		C31A92FB1F111DB5000CF4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31A92FE1F111DB5000CF4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C31A93001F111DB5000CF4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C345B7E21F16020A00C69616 /* BIPActionsheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIPActionsheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C345B7E41F16020A00C69616 /* BIPActionsheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIPActionsheetTests.m; sourceTree = "<group>"; };
+		C345B7E61F16020A00C69616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C345B7EC1F16037B00C69616 /* BIPActionSheetItemViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetItemViewTests.m; sourceTree = "<group>"; };
+		C345B7EE1F16038D00C69616 /* BIPActionSheetItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetItemTests.m; sourceTree = "<group>"; };
+		C345B7F01F16039F00C69616 /* BIPActionSheetStackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheetStackTests.m; sourceTree = "<group>"; };
 		FF30831C1F14FB6B003FF7F2 /* BIPActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheet.h; sourceTree = "<group>"; };
 		FF30831D1F14FB6B003FF7F2 /* BIPActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPActionSheet.m; sourceTree = "<group>"; };
 		FF30831E1F14FB6B003FF7F2 /* BIPActionSheetConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPActionSheetConstants.h; sourceTree = "<group>"; };
@@ -64,6 +84,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C345B7DF1F16020A00C69616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +99,7 @@
 			children = (
 				FF30831B1F14FB6B003FF7F2 /* Source */,
 				C31A92EE1F111DB5000CF4ED /* BIPActionsheet */,
+				C345B7E31F16020A00C69616 /* BIPActionsheetTests */,
 				C31A92ED1F111DB5000CF4ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				C31A92EC1F111DB5000CF4ED /* BIPActionsheet.app */,
+				C345B7E21F16020A00C69616 /* BIPActionsheetTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +135,18 @@
 				C31A92F01F111DB5000CF4ED /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C345B7E31F16020A00C69616 /* BIPActionsheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				C345B7E41F16020A00C69616 /* BIPActionsheetTests.m */,
+				C345B7EE1F16038D00C69616 /* BIPActionSheetItemTests.m */,
+				C345B7EC1F16037B00C69616 /* BIPActionSheetItemViewTests.m */,
+				C345B7F01F16039F00C69616 /* BIPActionSheetStackTests.m */,
+				C345B7E61F16020A00C69616 /* Info.plist */,
+			);
+			path = BIPActionsheetTests;
 			sourceTree = "<group>";
 		};
 		FF30831B1F14FB6B003FF7F2 /* Source */ = {
@@ -155,6 +196,24 @@
 			productReference = C31A92EC1F111DB5000CF4ED /* BIPActionsheet.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C345B7E11F16020A00C69616 /* BIPActionsheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C345B7EB1F16020A00C69616 /* Build configuration list for PBXNativeTarget "BIPActionsheetTests" */;
+			buildPhases = (
+				C345B7DE1F16020A00C69616 /* Sources */,
+				C345B7DF1F16020A00C69616 /* Frameworks */,
+				C345B7E01F16020A00C69616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C345B7E81F16020A00C69616 /* PBXTargetDependency */,
+			);
+			name = BIPActionsheetTests;
+			productName = BIPActionsheetTests;
+			productReference = C345B7E21F16020A00C69616 /* BIPActionsheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +227,12 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = KUKEJWK3NR;
 						ProvisioningStyle = Automatic;
+					};
+					C345B7E11F16020A00C69616 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KUKEJWK3NR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C31A92EB1F111DB5000CF4ED;
 					};
 				};
 			};
@@ -185,6 +250,7 @@
 			projectRoot = "";
 			targets = (
 				C31A92EB1F111DB5000CF4ED /* BIPActionsheet */,
+				C345B7E11F16020A00C69616 /* BIPActionsheetTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +263,13 @@
 				C31A92FF1F111DB5000CF4ED /* LaunchScreen.storyboard in Resources */,
 				C31A92FC1F111DB5000CF4ED /* Assets.xcassets in Resources */,
 				C31A92FA1F111DB5000CF4ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C345B7E01F16020A00C69616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +295,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C345B7DE1F16020A00C69616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C345B7F11F16039F00C69616 /* BIPActionSheetStackTests.m in Sources */,
+				C345B7E51F16020A00C69616 /* BIPActionsheetTests.m in Sources */,
+				C345B7ED1F16037B00C69616 /* BIPActionSheetItemViewTests.m in Sources */,
+				C345B7EF1F16038D00C69616 /* BIPActionSheetItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C345B7E81F16020A00C69616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31A92EB1F111DB5000CF4ED /* BIPActionsheet */;
+			targetProxy = C345B7E71F16020A00C69616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C31A92F81F111DB5000CF4ED /* Main.storyboard */ = {
@@ -360,6 +452,32 @@
 			};
 			name = Release;
 		};
+		C345B7E91F16020A00C69616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KUKEJWK3NR;
+				INFOPLIST_FILE = BIPActionsheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.BIPActionsheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BIPActionsheet.app/BIPActionsheet";
+			};
+			name = Debug;
+		};
+		C345B7EA1F16020A00C69616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KUKEJWK3NR;
+				INFOPLIST_FILE = BIPActionsheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.BIPActionsheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BIPActionsheet.app/BIPActionsheet";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -380,6 +498,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C345B7EB1F16020A00C69616 /* Build configuration list for PBXNativeTarget "BIPActionsheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C345B7E91F16020A00C69616 /* Debug */,
+				C345B7EA1F16020A00C69616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
