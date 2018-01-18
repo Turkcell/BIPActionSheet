@@ -504,7 +504,7 @@ static inline bool bip_isPad() {
 
 - (CGFloat)cancelYOrigin
 {
-    return self.view.frame.size.height - self.paddingOffset - kBIPActionSheetRowHeight;
+    return self.view.frame.size.height - self.paddingOffset - kBIPActionSheetRowHeight - UIWindow.safeAreaInset.bottom;
 }
 
 - (CGFloat)paddingOffset

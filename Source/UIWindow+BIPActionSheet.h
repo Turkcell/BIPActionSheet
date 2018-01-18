@@ -12,5 +12,7 @@
 
 + (UIWindow *)bip_windowWithLevel:(UIWindowLevel)windowLevel;
 + (CGFloat)bip_maxWindowLevelCurrently;
++ (UIEdgeInsets)safeAreaInset;
+
 
 @end
